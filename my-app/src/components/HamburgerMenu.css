@@ -1,0 +1,28 @@
+.hamburger {
+    cursor: pointer;
+    font-size: 30px; /* Hamburger icon size */
+    font-weight: 100;
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.hamburger-menu {
+    position: relative;
+}
+
+.menu {
+    padding: 10px;
+    width: 200px;
+    display: none;
+    text-align: left;
+    position: absolute; /* Or use another positioning context as needed */
+}
+
+.hamburger-menu:hover .menu {
+    display: block;
+}
