@@ -20,9 +20,25 @@
     width: 200px;
     display: none;
     text-align: left;
-    position: absolute; /* Or use another positioning context as needed */
+    position: absolute;
 }
 
 .hamburger-menu:hover .menu {
     display: block;
+}
+
+.active:before {
+    content: '• ';
+    color: black;
+    margin-right: 5px;
+}
+
+.hamburger-menu .menu a {
+    opacity: 0.4;
+    transition: opacity 0.3s, font-weight 0.3s;
+}
+
+.hamburger-menu .menu a:hover {
+    opacity: 1;
+    font-weight: bold;
 }

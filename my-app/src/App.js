@@ -12,7 +12,7 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
+      <div style ={{marginTop: '8px'}}className="App">
         <Menu />
         <Routes>
           <Route path="/" element={<HomePage />} />
